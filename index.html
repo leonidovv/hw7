@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel='stylesheet' href='styles.css'>
+    <script src="script.js"></script>
+    <title>🤑 Finance — Get the latest info for your financial decisions</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <a href="/" class="header__logo">
+                <img class="header__logo-img" src="img/finance-logo.svg" alt="Finance Logo">
+            </a>
+            <nav class="header__nav">
+                <a class="header__nav-link" href="/blocks/news/news.html">News</a>
+                <a class="header__nav-link" href="#">Join maillist</a>
+                <a class="header__nav-link" href="#">Contact us</a>
+            </nav>
+        </header>
+
+        <!-- Title -->
+        <div class="spacer"></div>
+        <div class="title-block">
+            <div class="title-block__widgets">
+                <div class="currency-widget widget-style">
+                    <span>$USD exchange rate = </span>
+                    <span class="currency-widget-eur">EUR €0.92 </span>
+                    <span class="currency-widget-uah">UAH ₴36.90</span>
+                </div>
+                <div class="subscribe-widget widget-style">
+                    <div class="subscribe-widget__title">Join our mailing list</div>
+                    <div class="subscribe-widget__description">Get the latest important news right into your inbox</div>
+                    <form class="subscribe-widget__form" action="/form-url" method="post">
+                        <div class="input-container">
+                            <input class="subscribe-widget__input" type="email" placeholder="Email Address">
+                        </div>
+                        <button class="subscribe-widget__button" type="submit"></button>
+                    </form>
+                </div>
+            </div>
+            <div class="title-block__visual">
+                <lottie-player src="https://lottie.host/488883c8-f92c-45a7-ab8a-7bb0b3ea497a/j1nHCJPSui.json" background="background" speed="1" direction="1" mode="normal" loop="loop" autoplay="autoplay"></lottie-player>
+            </div>
+        </div>
+
+        <!-- News -->
+        <h2 class="section-title">Latest financial news</h2>
+        <div class="spacer"></div>
+        <div class="latest-news" id="news">
+            <!-- TODO: Add news here -->
+            <div class="flex-item">
+                <h3 class="news-title">Federal Reserve Raises Interest Rates</h3>
+                <p class="news-date">2023-08-10</p>
+                <p class="news-description">The central bank announces a rate hike as part of its efforts to control inflation and maintain economic stability.</p>
+                <a href="#" class="news-link">Read article</a>
+            </div>
+            <div class="flex-item">
+                <h3 class="news-title">Tech Giant Reports Disappointing Q3 Profits</h3>
+                <p class="news-date">2023-08-10</p>
+                <p class="news-description">A leading technology company's quarterly earnings fall short of expectations, impacting its stock price and the broader tech sector.</p>
+                <a href="#" class="news-link">Read article</a>
+            </div>
+            <div class="flex-item">
+                <h3 class="news-title">Oil Prices Surge Amid Supply Concerns</h3>
+                <p class="news-date">2023-08-10</p>
+                <p class="news-description">Rising geopolitical tensions and supply disruptions contribute to a sharp increase in global oil prices, raising concerns about inflationary pressures.</p>
+                <a href="#" class="news-link">Read article</a>
+            </div>
+            <div class="flex-item">
+                <h3 class="news-title">Cryptocurrency Regulation Talks Continue</h3>
+                <p class="news-date">2023-08-10</p>
+                <p class="news-description">Global regulators convene to discuss the framework for overseeing and regulating the rapidly evolving cryptocurrency market.</p>
+                <a href="#" class="news-link">Read article</a>
+            </div>
+            <div class="flex-item">
+                <h3 class="news-title">Stock Market Hits Record High</h3>
+                <p class="news-date">2023-08-10</p>
+                <p class="news-description">Major stock indices reach all-time highs amid positive earnings reports and strong economic data.</p>
+                <a href="#" class="news-link">Read article</a>
+            </div>
+            <div class="flex-item">
+                <h3 class="news-title">Brexit's Impact on European Markets</h3>
+                <p class="news-date">2023-08-10</p>
+                <p class="news-description">As the UK finalizes its exit from the EU, financial markets closely monitor the ongoing effects on trade, currencies, and investment patterns.</p>
+                <a href="#" class="news-link">Read article</a>
+            </div>
+        </div>
+
+        <!-- Cookies -->
+        <div class="cookies-popup">
+            <div class="cookies-popup__content">
+                <div class="cookies-popup__header">
+                    <h3 class="cookies-popup__title">Our website uses cookies</h3>
+                </div>
+                <div class="cookies-popup__body">
+                    <p>To offer you the best, we always use cookies. If you agree, simply click 'Accept all cookies' to continue your adventure on our website.</p>
+                </div>
+                <button class="cookies-popup__accept-btn">Accept all cookies</button>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="spacer">
+                <h6 class="footer__content">
+                    This website is a part of PRJCTR Course
+                </h6>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</body>
+</html>

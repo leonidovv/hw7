@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+@import url(/styles/footer.css);
+@import url(/styles/header.css);
+@import url(/styles/news.css);
+@import url(/styles/title-block.css);
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1344px;
+  margin: 0 auto;
+}
+
+.spacer {
+  height: 2px;
+  background-color: #D9DBE9;
+}
+
+.cookies-popup {
+  position: fixed;
+  bottom: 20px;
+  right: 291px; 
+  margin-right: 20px; 
+  background-color: #FFEDFE;
+  border: 2px solid #FF75CB;
+  border-radius: 20px;
+  width: 751px;
+  height: 254px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cookies-popup__content {
+  padding: 20px;
+  text-align: left;
+}
+
+.cookies-popup__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cookies-popup__title {
+  margin: 0;
+  color: #000;
+}
+
+.cookies-popup__close-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #000;
+}
+
+.cookies-popup__body {
+  margin: 20px 0;
+  color: #A7A5B2;
+}
+
+.cookies-popup__accept-btn {
+  background-color: #0141AD;
+  color: #D4DEEF;
+  border: none;
+  border-radius: 12px;
+  width: 210px;
+  height: 52px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.cookies-popup__accept-btn:hover {
+  background-color: #012A6A;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.flex-item {
+  width: calc((100% / 3) - 24px);
+  height: 418px;
+  background-color: #f4f4f4;
+  border-radius: 45px;
+  margin: 12px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.flex-item h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.flex-item p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.news-link {
+  display: inline-block;
+  padding: 14px 32px;
+  border-radius: 12px;
+  background-color: #F8F7FD;
+  color: #005AD4;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.news-link:hover {
+  background-color: #DCECFF;
+}
+
+.flex-item .news-date,
+.flex-item .news-description {
+  color: #A7A5B2;
+}
